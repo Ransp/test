@@ -1,0 +1,301 @@
+/* font family */
+body{
+  font-family: "LiHei Pro", "Microsoft JhengHei";
+}
+/* media query for display size */
+@media screen and (min-width: 600px){
+  .desktop{
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+/* css for desktop */
+
+/* css for container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.container-desc{
+  margin: 0 auto;
+  margin-bottom: 0px;
+  width: 80%;
+}
+/* css for each section block */
+.section1{
+  margin-top:90px;
+}
+
+/* css for common items */
+.item{
+  padding: 2.5px;
+}
+
+.pink-item {
+  background-color: #ffa399;
+  padding: 40px 18% 10px 18%;
+  min-height: 42vh;
+  margin-bottom: 5vh;
+}
+
+.fee-highlight {
+  padding-top: 1.3em;
+  padding-bottom: 0.5em;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.fee-article {
+  margin-top: -1.5em;
+}
+
+.fee-article ul{
+  padding: 0px 0px 0px 10%;
+}
+
+.head-article .btn{
+  font-weight: bold;
+  border-radius: 10px;
+  float: left;
+}
+
+.next1btn{
+  color: #ec5e62;
+  background-color: none;
+  border-color: none;
+  display: inline-block;
+  margin-top: 20vh;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  height: 6vh;
+}
+
+.nextbtn{
+  color: #ec5e62;
+  background-color: none;
+  border-color: none;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  height: 6vh;
+}
+
+/* css for section1 */
+.picture{
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* css for hover content */
+
+.picture.hover figcaption{
+  filter: alpha(opacity=100);
+  opacity:1;
+}
+
+figcaption{
+  filter: alpha(opacity=0);
+  opacity:0;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+  transition: all, 1s, ease-in-out;
+}
+
+figcaption span{
+  margin-top: 12%;
+  display: block;
+}
+
+figcaption img{
+  width: 50%;
+  height: 50%;
+}
+
+figcaption article, .content article{
+  font-size: 18px;
+  
+}
+
+figcaption article, .content article{
+  
+  line-height: 30px;
+}
+
+figcaption article{
+  font-weight: bold;
+}
+figcaption article p, .content article p{
+    margin: 0px;
+}
+
+.content article{
+  margin-bottom: 25px;  
+}
+
+.content{
+  padding-bottom: 20px;
+}
+
+
+/* start css for picture list*/
+.detail{
+  padding-top: 50px;
+}
+.round-border{
+  position: relative;
+  border-radius:  25px;
+  width: 76%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 70px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    5px 5px 11px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:         0px 0px 70px 0px rgba(50, 50, 50, 0.3); 
+}
+.round-border .top-image > img{
+  position: absolute;
+  top: -5vw;
+  left: 40%;
+  width: 20%;
+}
+.round-border .clear{
+  height: 6vw;
+}
+.round-border .clear ~ .row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.round-border .message{
+  padding: 0 40px;
+}
+.round-border .message > h2{
+  color: rgb(236, 94, 98);
+}
+
+.row.img-list{
+  width: 90%; 
+  margin: 0 auto;
+}
+
+.img-list img{
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.img-list h1{
+  font-weight: bolder;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.img-list h2{
+  color: #ffa399;
+  border: none;
+  padding: 0;
+  margin: 0 0 0.8em 0;
+  font-size: 4em;
+  line-height: 0px;
+}
+
+.img-list p{
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.pink-item h1{
+  color:#ffffff;
+  font-weight: bolder;
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.pink-item p{
+  color:#ffffff;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+.pink-item i{
+  margin: 2vh;
+}
+
+.fee-highlight span {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.fee-article h1{
+  margin: 0 0 1.5em 0;
+  font-weight: bolder;
+  font-size: 1.6em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.fee-article p{
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+
+.fee-article ul{
+  align-self: center;
+  margin-left: 0;
+}
+
+
+
+.fee-article li{
+  margin: 0.3em 0;
+  color: #ffffff;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+@media screen and (min-width: 1200px){
+  .col-1200-3{
+    width: 25%;
+  }
+
+@media screen and (min-width: 1260px){
+  .col-1260-3{
+    width: 25%;
+  }
+}
+/* end css for picture list*/
+
+/* end css for desktop */
