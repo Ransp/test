@@ -7,28 +7,9 @@
 				<div class="container-desc" style = "height: 30vh;">
 					<div class="container">
 
-					    <div class = "col-md-5 col-md-offset-1 col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-1">
-					        <div class = "item">  	
-					      	    <div class = "content">
-							      	<div class ="text-center">
-							      	  <article>
-							      	  	<h1>Benee照顧經理人</h1>
-							      	  	<p>您的專屬居家照顧團隊</p><p>在家中輕鬆獲得需要的照顧協助！</p>
-							      	  </article>
-							      	  <a href = "#order"><div class ="btn btn-lg btn-info col-md-7 col-xs-7 col-sm-7">馬上預約！</div></a>
-							      	</div>
-
-						        </div>
-						    </div> 
-					    </div>
 
 
 					</div>
-					<a href = "#about">
-						<div class ="next1btn col-md-12  col-xs-12 col-sm-12" style="color: #ffffff;">
-							<i class="fa fa-4x fa-angle-down"></i>
-						</div>
-					</a>
 				</div>
 
 			</div>	
@@ -96,13 +77,7 @@ Carousel-->
 
     <?php include('_1about.php'); ?>
     
-    <?php include('_2process.php'); ?>
-    
-    <?php include('_3service.php'); ?>
-    
-    <?php include('_4fee.php'); ?>
-
-    <?php include('_5order.php'); ?>
+    <?php include('_2note.php'); ?>
 
 	<!-- <div class = "container-desc  detail" id = "section3">
 	  <img src = "./img/FAKE_Section_A.png" style="width: 100%;" >
